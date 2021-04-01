@@ -66,6 +66,9 @@ PRODUCT_BOARD_PLATFORM := msmnile
 PRODUCT_PACKAGES += \
     Snap
 
+#Asus Long screenshot
+PRODUCT_PACKAGES += StitchImage
+
 # Device-specific settings
 PRODUCT_PACKAGES += \
     XiaomiParts
