@@ -1,5 +1,4 @@
-
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2022 The Havoc-OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -165,3 +164,6 @@ BOARD_AVB_RECOVERY_ROLLBACK_INDEX_LOCATION := 1
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/raphael/BoardConfigVendor.mk
+
+# Havoc-OS Props 
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/havoc.prop

@@ -1,0 +1,22 @@
+diff --git a/qcom/dynamic/init.te b/qcom/dynamic/init.te
+deleted file mode 100644
+index 8f525b0..0000000
+--- a/qcom/dynamic/init.te
++++ /dev/null
+@@ -1 +0,0 @@
+-allow init sysfs_battery_supply:file { setattr };
+diff --git a/qcom/dynamic/platform_app.te b/qcom/dynamic/platform_app.te
+deleted file mode 100644
+index 5b51886..0000000
+--- a/qcom/dynamic/platform_app.te
++++ /dev/null
+@@ -1,2 +0,0 @@
+-# Allow platform_app to read sysfs_graphics
+-allow platform_app sysfs_graphics:file { read open getattr };
+diff --git a/qcom/dynamic/system_server.te b/qcom/dynamic/system_server.te
+deleted file mode 100644
+index 924aa54..0000000
+--- a/qcom/dynamic/system_server.te
++++ /dev/null
+@@ -1 +0,0 @@
+-allow system_server sysfs_battery_supply:file rw_file_perms;

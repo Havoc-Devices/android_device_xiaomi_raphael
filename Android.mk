@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2022 The Havoc-OS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #

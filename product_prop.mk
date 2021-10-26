@@ -21,8 +21,3 @@ PRODUCT_PRODUCT_PROPERTIES += \
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.control_privapp_permissions=log
 
-# Havoc-OS
-ro.havoc.device.name=Xiaomi Redmi K20 Pro / Mi 9T Pro
-ro.havoc.group.url=https://t.me/havoc_raphael
-ro.havoc.maintainer=Alex Tro
-ro.havoc.maintainer.username=nuub1k
