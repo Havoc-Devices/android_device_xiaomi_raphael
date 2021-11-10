@@ -18,3 +18,6 @@ type sysfs_device_info, sysfs_type, fs_type;
 
 # qti_init
 type qti_init_shell_exec, exec_type, file_type;
+
+# FPS Info
+type sysfs_fps, sysfs_type, fs_type;
